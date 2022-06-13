@@ -1,0 +1,101 @@
+.flexone{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .flexone> div{
+    background-color:grey;
+    margin-left: 950px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-width: 5px;
+    height: 10px;
+    width: 200px;
+    
+    }
+
+    .flextwo{
+    display: flex;
+    background-color: white;
+
+    }
+    
+    .flextwo > div {
+    background-color:lightsalmon;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    
+    }
+    .flexyellow{
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        width: 400px;
+        height: 600px;
+    
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .flexyellow > div {
+        background-color: white;
+        width: 360px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        border-radius: 15px;
+        }
+
+        .flexred{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        width: 400px;
+        height: 600px;
+   
+        
+        }
+
+        .flexred > div {
+        background-color: white;
+        width: 360px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        border-radius: 15px;
+        }
+        .flexviolet{
+        display: flex;
+        flex-direction: column;
+        background-color: blueviolet;
+        width: 400px;
+        height: 600px;
+   
+        }
+
+        .flexviolet > div {
+        background-color: white;
+        width: 360px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        border-radius: 15px;
+        }
+        .flexyellow>div.big{
+            width: 360px;
+            height:360px  ;
+        }
+        .flextwo>.colour{
+            background-color: blue;
+
+        }
